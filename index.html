@@ -1,0 +1,38 @@
+<html>
+<head>
+	<link rel="stylesheet" href="index.css">
+	
+	<title>Comparar</title>
+</head>
+<body>
+	
+<form>
+	<div class="form-example">
+		<label for="number">operando1 </label>
+		<input type="number" name="operando1" id="operando1" required>
+	</div>
+	<div>
+		<select name="operacao" id="operacao">
+			<option value="1" selected>+</option>
+			<option value="2">-</option>
+			<option value="3">*</option>
+			<option value="4">/</option>
+		</select>
+	</div>
+	<div class="form-example">
+		<label for="number">operando2 </label>
+		<input type="number" name="operando2" id="operando2" required>
+	</div>
+</form>
+<div id="result">
+	<button onclick="full()">Calcular</button>
+	<p>Resultado:</p>
+	<p class="resultado"></p>
+</div>
+
+
+	
+	
+</body>
+<script src="index.js"></script>
+</html>
